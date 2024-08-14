@@ -7,13 +7,9 @@ const Content = ({count, setCount}) => {
 
   return (
     <>
-     <div>
+      <div>
         <p>Count: {count}</p>
         <button onClick={increment}>Increment</button>
-      </div>
-
-      <div>
-        <p>{count > 10 ? "High count!" : "Keep counting..."}</p>
       </div>
     </>
   )
